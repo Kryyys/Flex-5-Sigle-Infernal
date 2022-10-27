@@ -1,0 +1,72 @@
+main {
+    width: 800px;
+    height: 550px;
+    display: grid;
+    gap: 40px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "v1 v1 v1 v1 v1 v1 v2"
+        "v3 b1 b1 b1 b1 b2 v2"
+        "v3 b3 o o o b2 v2"
+        "v3 b3 b4 b4 b4 b4 v2"
+        "v3 v4 v4 v4 v4 v4 v4"
+        ;
+}
+
+
+
+/* COULEURS */
+.vert1 {
+    background-color: rgb(143, 238, 143);
+    border: 2px solid rgb(114, 185, 114);
+    grid-area: v1;
+}
+
+.vert2 {
+    background-color: rgb(142, 255, 142);
+    border: 2px solid rgb(114, 185, 114);
+    grid-area: v2;
+}
+
+.vert3 {
+    background-color: rgb(142, 255, 142);
+    border: 2px solid rgb(114, 185, 114);
+    grid-area: v3;
+}
+
+.vert4 {
+    background-color: rgb(142, 255, 142);
+    border: 2px solid rgb(114, 185, 114);
+    grid-area: v4;
+}
+
+.bleu1 {
+    background-color: rgb(160, 182, 255);
+    border: 2px solid rgb(112, 146, 219);
+    grid-area: b1;
+}
+
+.bleu2 {
+    background-color: rgb(160, 182, 255);
+    border: 2px solid rgb(112, 146, 219);
+    grid-area: b2;
+}
+
+.bleu3 {
+    background-color: rgb(160, 182, 255);
+    border: 2px solid rgb(112, 146, 219);
+    grid-area: b3;
+}
+
+.bleu4 {
+    background-color: rgb(160, 182, 255);
+    border: 2px solid rgb(112, 146, 219);
+    grid-area: b4;
+}
+
+.orange {
+    background-color: rgb(250, 204, 119);
+    border: 2px solid rgb(235, 174, 95);
+    grid-area: o;
+}
